@@ -41,7 +41,7 @@ fun RegistrationForm() {
     val context = LocalContext.current
     // for 59 batch
     val namePattern = "^[A-Za-z .]+$".toRegex()
-    val emailPattern = "^0182210012101[0-9]{3}@lus.ac.bd$".toRegex()
+    val emailPattern = "^cse_0182210012101[0-9]{3}@lus.ac.bd$".toRegex()
     val studentIdPattern = "^0182210012101[0-9]{3}$".toRegex()
 
     Column(
