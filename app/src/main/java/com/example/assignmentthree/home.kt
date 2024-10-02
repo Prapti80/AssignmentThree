@@ -62,9 +62,9 @@ fun RegistrationForm() {
                 .fillMaxWidth()
                 .padding(vertical = 8.dp),
             colors = TextFieldDefaults.outlinedTextFieldColors(
-                focusedBorderColor = Color(0xFF6200EE), // Purple border when focused
+                focusedBorderColor = Color(0xFF6200EE), 
                 unfocusedBorderColor = Color.Gray
-            )
+    
         )
         if (nameError) {
             Text("Not valid name format", color = MaterialTheme.colorScheme.error)
